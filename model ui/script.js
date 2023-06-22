@@ -6,10 +6,13 @@ const btnThree = document.getElementById("btn-three");
 const btnClose = document.getElementById("btn-close");
 //output
 const modelContainer = document.getElementById("model");
+
+
 //function
 const init = () => {
   modelContainer.classList.add("close")
 };
+
 
 const close = () => {
   modelContainer.classList.remove("close");
@@ -25,9 +28,10 @@ btnClose.addEventListener("click", init);
 
 //keypress
 document.addEventListener("keydown", (event)=> {
-  if (event.key === "Escape") {
+  // if (event.key === "Escape") 
+  // {
     init()
-  }
+  // }
 });
 
 //inital settings
