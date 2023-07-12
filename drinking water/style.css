@@ -1,0 +1,200 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+background-color:cornflowerblue ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+font-family: sans-serif;
+
+}
+
+.box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: auto;
+gap: 1rem;
+}
+
+.section1{
+  margin-bottom: 2rem;
+
+}
+
+.heading{
+  color: white;
+}
+.sub-heading{
+  color: white;
+  margin-left: .5rem;
+  padding: 1rem;
+}
+
+.level{
+  color:deepskyblue;
+  font-size: 1.5em;
+}
+.balance{
+  color: darkorange;
+}
+
+.section2{
+  width: 7.5rem ;
+  height: 18rem;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border: 4px solid blue;
+}
+.description{
+  color: azure;
+}
+.section4{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.section5{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.card-one{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+.card-two{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+.card-three{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+.card-four{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+.card-five{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+.card-six{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+
+.card-seven{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+.card-eight{
+  background-color: white;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem ;
+  height: 5rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius:1rem;
+  border: 2px solid blueviolet;
+}
+
+
+
+
+
+
+
