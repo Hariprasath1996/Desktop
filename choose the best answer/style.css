@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ body{
+  font-family: sans-serif;
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .box{
+  background-color: white;
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+ }
+.section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20rem;
+  margin-top: 2rem;
+  
+}
+
+.one{
+  padding: .7rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.two{
+  padding: .7rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.three{
+  padding: .7rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.four{
+  padding: .7rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn{
+  margin-top: 10rem;
+  width: 45vw;
+  height: 7vw;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: blueviolet;
+  border: 2px solid blueviolet;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
