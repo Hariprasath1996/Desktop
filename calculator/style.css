@@ -1,0 +1,177 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:aliceblue ;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.container{
+  background-color: lightsteelblue;
+  width: 50vw;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
+  border: 2px solid grey;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+
+.section-one{
+  background-color: gainsboro;
+  width: 29.55rem;
+  height:7rem;
+  margin-left: 3rem;
+  padding: .5rem;
+  border: 2px solid grey;
+  
+}
+.section-two{
+  width: 30.73rem;
+  height:auto;
+  color: white;
+  grid-template-columns: repeat(4,90px);
+  grid-template-rows: repeat(5,90px);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-left: 2rem;
+  
+} 
+.btn{
+  width: 7.8vw;
+  height:3.5rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
+#btn0{
+background-color: grey;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: black;
+}
+#btn1{
+background-color: grey;
+grid-column: 2/3;
+grid-row: 1/2;
+color: black;
+}
+#btn2{
+  background-color: grey;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  color: black;
+}
+#btn3{
+  background-color: grey;
+    grid-column: 4/5;
+  grid-row: 1/2;
+  color: black;
+}
+#btn4{
+  background-color: gainsboro;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  color: black;
+}
+#btn5{
+  background-color: gainsboro;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: black;
+}
+
+#btn6{
+  background-color: gainsboro;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  color: black;
+
+}
+#btn7{
+  background-color: gainsboro;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  color: black;
+
+
+}
+#btn8{
+  background-color: gainsboro;
+  color: black;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+#btn9{
+  background-color: gainsboro;
+  color: black;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+#btn10{
+  background-color: gainsboro;
+  color: black;
+  grid-column: 3/4;
+  grid-row: 4/5;
+
+}
+#btn11{
+  background-color: gainsboro;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  color: black;
+}
+#btn12{
+  background-color: gainsboro;
+  color: black;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+#btn13{
+  background-color: gainsboro;
+  color: black;
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+#btn14{
+  background-color: gainsboro;
+  color: black;
+  grid-column: 2/3;
+  grid-row: 5/6;
+
+}
+#btn15{
+  background-color: gainsboro;
+  color: black;
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+#btn16{
+  background-color: dodgerblue;
+  grid-column: 4/5;
+  grid-row: 2/6;
+  width: 7.8vw;
+  height:20.4rem;
+  color: black;
+
+}
