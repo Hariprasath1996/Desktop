@@ -59,6 +59,9 @@ hr{
   border-radius: .3rem;
   color: lightslategrey;
 } 
+.card-one:hover{
+  box-shadow: 5px 2px 10px grey
+}
 .heading{
   color: rgb(51, 49, 49);
   font-size: 1.25rem; 
@@ -91,6 +94,9 @@ cursor: pointer;
   border-radius: .3rem;
   color: lightslategrey;
 } 
+.card-two:hover{
+  box-shadow: 5px 2px 10px grey
+}
 .card-three{
   width: 27vw;
   height:85vh;
@@ -103,3 +109,6 @@ cursor: pointer;
   border-radius: .3rem;
   color: lightslategrey;
 } 
+.card-three:hover{
+  box-shadow: 5px 2px 10px grey
+}
