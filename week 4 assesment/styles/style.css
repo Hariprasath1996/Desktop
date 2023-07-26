@@ -5,7 +5,7 @@
 }
 body{
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: white;
   display: flex;
   flex-direction:column;
@@ -43,13 +43,15 @@ span{
   padding: .5rem;
   text-decoration: none;
   margin-left: 1rem;
+  position: relative;
+bottom: 5px; 
 }
 hr{
   width: 25vw;
 }
 .card-one{
   width: 27vw;
-  height:85vh;
+  height:78vh;
   border: .5px solid gray;
   display: flex;
   flex-direction:column;
@@ -74,17 +76,18 @@ cursor: pointer;
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  
 }
 .details{
-  padding: .3rem;
+position: relative;
+bottom: 7px; 
+padding: .3rem;
 text-decoration: underline;
 color: black;
 cursor: pointer;
 }
 .card-two{
   width: 27vw;
-  height:85vh;
+  height:78vh;
   border: .5px solid gray;
   display: flex;
   flex-direction:column;
@@ -99,7 +102,7 @@ cursor: pointer;
 }
 .card-three{
   width: 27vw;
-  height:85vh;
+  height:78vh;
   border: .5px solid gray;
   display: flex;
   flex-direction:column;
