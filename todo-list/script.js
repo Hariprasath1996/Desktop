@@ -4,29 +4,29 @@ let input = document.getElementById(`input`)
 let button = document.getElementById(`add`)
 let todoList = document.getElementById(`todoList`)
 
-let todos = [];
+let items = [];
 
 button.addEventListener(`click`, ()=>{
-todos.push(input.value)
-addtodo(input.value)
+  items.push(input.value)
+  addItem(input.value)
 input.value=``
 })
 
-function addtodo (todo) {
+function addItem (item) {
   let para = document.createElement(`p`)
-  para.innerText = todo
+  para.innerText = item
   todoList.appendChild(para)
   para.addEventListener(`click`,()=>{
     para.style.textDecoration=`line-through`
-    remove(todo)
+    remove(item)
   })
   para.addEventListener(`dblclick`,()=>{
 todoList.removeChild(para)
-remove(todo)
+remove(item)
 })
 }
-function remove(todo) {
-  let index = todos.indexOf(todo)
+function remove(item) {
+  let index = items.indexOf(item)
   if(index>-1)
-  todos.splice(index,1)
+  items.splice(index,1)
 }
