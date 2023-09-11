@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cloudsection {
+    width: 100%;
+    height: 34vh;
+    background-color:skyblue;
+}
+
+.grasssection{
+    width: 100%;
+    height: 32vh;
+    background-color: green;
+}
+
+.roadsection{
+    width: 100%;
+    height: 34vh;
+    background-color: #4c4d4c;
+}
+
+.white-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1px;
+}
+
+.white-box-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem; 
+}
+
+.whitebox{
+    width: 3.5rem;
+    height: 1.5rem;
+    background-color: white;
+}
+
+.redmario{
+    animation: moveRight 5s linear infinite;
+    overflow: hidden;
+}
+
+.greenmario{
+    animation: moveRight 6s linear infinite;
+    overflow: hidden;
+}
+.cloud-container-two{
+    top: 2rem;
+    animation: moveRight 37s linear infinite,
+    decrease-opacity linear forwards infinite;
+    position: absolute;
+}
+
+@keyframes moveRight {
+    from {
+transform: translateX(-12.5rem);
+    }
+    to {
+    transform: translateX(100rem);
+    }
+}
+
+.cloud-image-container{
+    animation:  moveRight 45s linear infinite;
+    position: relative;
+}
+
+@keyframes decrease-opacity {
+    0% {
+      opacity: 40%;
+    }
+    100% {
+      opacity: 40%;
+    }
+  }
+
+  
