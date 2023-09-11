@@ -14,19 +14,19 @@
     flex-direction: column;
 }
 
-.cloudsection {
+.cloud-section {
     width: 100%;
     height: 34vh;
     background-color:skyblue;
 }
 
-.grasssection{
+.grass-section{
     width: 100%;
     height: 32vh;
     background-color: green;
 }
 
-.roadsection{
+.road-section{
     width: 100%;
     height: 34vh;
     background-color: #4c4d4c;
@@ -48,18 +48,18 @@
     gap: 1.5rem; 
 }
 
-.whitebox{
+.white-box{
     width: 3.5rem;
     height: 1.5rem;
     background-color: white;
 }
 
-.redmario{
+.red-mario{
     animation: moveRight 5s linear infinite;
     overflow: hidden;
 }
 
-.greenmario{
+.green-mario{
     animation: moveRight 6s linear infinite;
     overflow: hidden;
 }
