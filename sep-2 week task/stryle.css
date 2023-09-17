@@ -367,7 +367,7 @@ justify-content: flex-start;
 align-items: flex-start;
 }
 hr{
-  width: 5vw;
+  width: 10vw;
 }
 .para-9{
 width: 25vw;
@@ -387,5 +387,5 @@ gap: 6rem;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 1rem;
-  gap: 6rem;
+  gap: 1rem;
 }
