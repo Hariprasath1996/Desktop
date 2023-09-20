@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Changer</title>
+    <style>
+        /* Define some initial CSS styles */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="myBox">
+      <img src="" alt="" sty>
+    </div>
+    <button onclick="changeCSS()">Change Color</button>
+
+    <script>
+        function changeCSS() {
+            // Get the element by its ID
+            var box = document.getElementById("myBox");
+
+            // Change CSS properties
+            box.style.backgroundColor = "red";
+        }
+    </script>
+</body>
+</html>
