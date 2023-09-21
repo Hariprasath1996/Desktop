@@ -5,10 +5,10 @@ btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))
 
 function createBoxes() {
   for (let i = 0; i < 4; i++) {
-    for (let j = 0; j < 4; j++) {
+    for (let a = 0; a < 4; a++) {
       const box = document.createElement('div')
       box.classList.add('box')
-      box.style.backgroundPosition = `${-j * 125}px ${-i * 125}px`
+      box.style.backgroundPosition = `${-a* 125}px ${-i * 125}px`
       boxesContainer.appendChild(box)
     }
   }
